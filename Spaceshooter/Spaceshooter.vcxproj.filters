@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{a13c6257-f432-4747-af2f-af5aeaf0d6ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Spaceshooter\AnimatedSprite.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\EnemyShip.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Entity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Entry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Fleet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\GameLoop.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Level_000.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\MainMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\MenuCredits.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\MenuOptions.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Projectile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Ship.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\SplashScreen.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceshooter\Starfield.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Spaceshooter\AnimatedSprite.hpp">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\Animation.hpp">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\EnemyShip.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\Entity.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\Fleet.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\GameLoop.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\Level_000.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\MainMenu.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\MenuCredits.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\MenuOptions.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\Projectile.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\Ship.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\SplashScreen.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Spaceshooter\Starfield.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Spaceshooter.rc" />
+  </ItemGroup>
+</Project>

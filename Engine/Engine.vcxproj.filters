@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\include\Engine\Engine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\EngineErrorStrings.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\EngineExport.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\EngineMath.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\EngineRandom.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\EngineTypes.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\HUD.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\MenuButton.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\MenuElement.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\MenuWidget.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\MsgBox.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\ProgressBar.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\Scene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\Transition.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\include\Engine\tinyfiledialogs.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine\GameTime.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{74759485-5aea-4f2f-8c4d-56f7de69af40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{b9427cdd-3233-4ab9-a107-d27553e82f40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Engine\Engine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\EngineErrorStrings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\EngineRandom.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\HUD.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\MenuButton.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\MenuElement.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\MenuWidget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\MsgBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\ProgressBar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Scene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Transition.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\tinyfiledialogs.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\GameTime.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+</Project>
