@@ -42,7 +42,8 @@ catch(const char* e)
 
 void handleCommandInput(int argcount, char** args, AppStartupOptions* aso)
 {
-	for(int i = 0; i < argcount; i++)
+    /*
+    for(int i = 0; i < argcount; i++)
 	{
 		if(std::strcmp(args[i], "-debug") == 0)
 		{
@@ -60,4 +61,5 @@ void handleCommandInput(int argcount, char** args, AppStartupOptions* aso)
 			aso->Style = sf::Style::Fullscreen;
 		}
 	}
+    */
 }

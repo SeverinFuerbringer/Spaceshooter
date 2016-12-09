@@ -31,7 +31,6 @@ SOURCES += \
     src/Spaceshooter/Ship.cpp \
     src/Spaceshooter/SplashScreen.cpp \
     src/Spaceshooter/Starfield.cpp \
-    main.cpp \
     src/Engine/tinyfiledialogs.c
 
 DISTFILES += \
@@ -88,4 +87,17 @@ HEADERS += \
     include/Spaceshooter/Ship.h \
     include/Spaceshooter/SplashScreen.h \
     include/Spaceshooter/Starfield.h \
-    Spaceshooter/resource.h
+    Spaceshooter/resource.h \
+    include/Engine/FrameClock.h
+
+INCLUDEPATH += include
+INCLUDEPATH += include/Engine
+INCLUDEPATH += include/Spaceshooter
+
+#LIBS += -L"/home/sev/Documents/lib/SFML/lib"
+
+CONFIG(release, debug|release): LIBS += -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-network -lsfml-window
+CONFIG(debug, debug|release): LIBS += -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-network -lsfml-window
+
+#INCLUDEPATH += "/home/sev/Documents/lib/SFML/include"
+#DEPENDPATH += "/home/sev/Documents/lib/SFML/include"

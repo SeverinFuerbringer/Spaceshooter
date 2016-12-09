@@ -11,7 +11,7 @@
 
 StaticShip::StaticShip(sf::Color col, se::vec2f pos, bool bot)
 	: isBot(bot), m_dir(se::vec2f(0, -7)),
-	  m_proj_buffer_size(INT_MAX)
+      m_proj_buffer_size(INT32_MAX)
 {
 	setFillColor(col);
 	setPosition(pos.x, pos.y);
@@ -23,7 +23,7 @@ StaticShip::StaticShip(sf::Color col, se::vec2f pos, bool bot)
 
 StaticShip::StaticShip(sf::Texture* texture, se::vec2f pos, bool bot)
 	: isBot(bot), m_dir(se::vec2f(0, -7)),
-	  m_proj_buffer_size(INT_MAX)
+      m_proj_buffer_size(INT32_MAX)
 {
 	setPosition(pos.x, pos.y);
 	setSize(se::vec2f(32, 32));

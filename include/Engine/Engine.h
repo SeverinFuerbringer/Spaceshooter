@@ -14,7 +14,7 @@
 #include "EngineMath.hpp"
 #include "EngineTypes.hpp"
 #include "Scene.h"
-#include <SFML/FrameClock.h>
+#include "FrameClock.h"
 
 namespace se
 {
