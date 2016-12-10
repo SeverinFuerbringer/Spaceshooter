@@ -23,8 +23,8 @@ void MainMenu::loadContent()
 		        !m_title_font.loadFromFile("bin/gfx/fonts/space_age.ttf"))
 			throw se::Error::FilesMissing::Font();
 
-		if(!m_menu_poster_texture.loadFromFile("bin/gfx/menuscreen/poster.png"))
-			throw se::Error::FilesMissing::Image();
+        if(!m_menu_poster_texture.loadFromFile("bin/gfx/menuscreen/poster.png"))
+            throw se::Error::FilesMissing::Image();
 	}
 	catch(const char* error_message)
 	{
@@ -90,8 +90,8 @@ void MainMenu::update(sf::RenderWindow& window)
 void MainMenu::draw(sf::RenderWindow& Window)
 {
 
-	Window.draw(m_menu_poster);
-	Window.draw(m_title_text);
+    Window.draw(m_menu_poster);
+    Window.draw(m_title_text);
 	m_menu.draw(Window);
 	if(!trns->done)
 		trns->animate();
@@ -110,7 +110,7 @@ void MainMenu::initialize()
 	m_menu_poster.setTexture(&m_menu_poster_texture);
 	m_menu_poster.setPosition(se::vec2f(0, 0));
 
-	m_menu_poster.setSize((se::vec2f)se::Engine::get().getWinSize());
+    m_menu_poster.setSize((se::vec2f)se::Engine::get().getWinSize());
 
 	trns = new se::Transition(se::Transition::Fade, sf::Color::Black, 255, 0,
 	                          sf::seconds(1), se::Engine::get().getRenderWindow());
